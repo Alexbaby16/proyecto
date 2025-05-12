@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+    url(Imagenes/fondo3.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(159, 197, 157, 0.692);
+}
+.position{
+    position: fixed;
+    z-index: 99;
+}
+.logo img{
+    color: #FFFDFC;
+    font-size: 25px;
+    font-weight: 800;
+    width: 200px;
+}
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+   font-size: 25px;
+   padding: 20px;
+   color:#50090a;
+   display: block;
+   font-weight: 600;
+   font-family: "Bebas Neue", sans-serif;
+}
+.menu .navbar ul li a:hover{
+    color: #65090c;
+}
+#menu {
+    display:none;
+}
+
+.menu-icono{
+    width:40px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content{
+    text-align: center ;
+}
+
+.header-content h1{
+    font-size: 65px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-family: "Mochiy Pop One", sans-serif;
+}
+
+.header-content p{
+    font-size: 16px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+
+}
+
+.btn-1{
+    display: inline block;
+    padding: 10px 25px;
+    margin-bottom: 5px;
+    background-color: #50090a;
+    color: #f9fafc;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.btn-1:hover{
+    background-color: #65090c;
+}
+
+.burguer{
+    padding: 100px 0;
+    background-color: #9fc59d;  
+    position: relative;
+}
+.burguer-content{
+    text-align: center;
+}
+.burguer-content h2{
+    font-size: 40px;
+    line-height: 70px;
+    color: #50090a;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+.txt-p{
+    font-size: 16px;
+    color: #252629;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.burguer-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.burguer2{
+    padding: 0 25px;
+    
+}
+
+.burguer2 img{
+    width: 200px;
+}
+
+.burguer-img{
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.burguer2 p{
+    color: #151618;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.servicios{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(Imagenes/fondo4.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+}
+.serv-content{
+    text-align: center;
+}
+
+.serv-content h2{
+    font-size: 40px;
+    line-height: 70px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.serv-content p{
+    font-size: 16px;
+    color: #e7e2e2;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.serv-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.servicios-1{
+    padding: 0 100px;
+}
+.servicios-1 img{
+    width: 90px;
+    margin-bottom: 15px;
+}
+
+.servicios-1 h3{
+    color:#a4ecb0;
+    font-size: 25px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.general{
+    display: flex;
+}
+
+.general-1{
+    width: 70%;
+    padding: 100px 250px 100px 100px;
+    background-color: #9fc59d;
+}
+.general-1 p{
+    color: #252629;
+}
+.general-2{
+    background-image: url(Imagenes/collage.jpg);
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2{
+    font-family: "Mochiy Pop One", sans-serif;
+    font-size: 40px;
+    line-height: 70px;
+    color: #50090a;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p{
+    color: #414247;
+    font-size: 16px;
+    margin: 25px 0 45px 0;
+}
+
+.blog{
+    padding: 100px 0;
+    text-align:center ;
+}
+
+.blog-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-1 {
+    background: rgba(184, 184, 184, 0.527);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px 55px;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.562);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.blog-1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+
+.blog-1 h3 {
+    font-size: 25px;
+    color: #65090c;
+    font-family: "Bebas Neue", sans-serif;
+}
+.blog-1 input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #a51414;
+    cursor: pointer;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.pie{
+    padding: 100px 0;
+    background-color: #000000;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.info h3{
+    font-size:18px ;
+    color: #e1e2e6;
+    margin-bottom: 18px;
+}
+
+.info li{
+    font-size: 16px;
+    color: #e1e2e6;
+    display: block;
+    margin-bottom: 20px;
+}
+
+@media(max-width:991px){
+    .menu{
+        padding: 30px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    } 
+    .header{
+        min-height: 0vh;
+    }
+    .header-content p{
+        padding: 0px;
+    }
+    .header-content{
+        padding: 100px 30px ;
+    }
+   
+    .burguer{
+        padding: 30px;
+    }
+    .burguer-content h2{
+        padding: 0;
+    }
+    .txt-p{
+        padding: 0;
+    }
+    .burguer-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .burguer-img{
+        display: none;
+    }
+
+    .servicios{
+        padding: 30px;
+    }
+    .serv-content p{
+        padding: 0;
+    }
+    .serv-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .servicios-1{
+        margin-bottom: 25px;
+    }
+    .general{
+        flex-direction: column;
+    }
+    .general-1{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+    .general-2, .general-3{
+        display: none;
+    }
+    .blog{
+        padding: 30px
+    }
+    .blog-content{
+        flex-direction: column;
+    }
+    .blog-1{
+        padding: 0;
+    }
+    .pie{
+        padding: 30px;
+    }
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+}
